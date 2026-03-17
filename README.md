@@ -1,6 +1,6 @@
 # Visualisasi Algoritma Backtracking: Sudoku Solver
 
-[cite_start]Repositori ini berisi *source code* dan dokumentasi untuk pemenuhan Tugas Individu mata kuliah terkait implementasi algoritma Backtracking[cite: 168, 171]. Kasus yang dipilih untuk divisualisasikan adalah penyelesaian permainan Sudoku.
+Repositori ini berisi *source code* dan dokumentasi untuk pemenuhan Tugas Individu mata kuliah terkait implementasi algoritma Backtracking. Kasus yang dipilih untuk divisualisasikan adalah penyelesaian permainan Sudoku.
 
 **Informasi Mahasiswa:**
 * **Nama:** Muhamad Ali Rohman
@@ -10,16 +10,16 @@
 ---
 
 ## 1. Deskripsi Program
-[cite_start]Program ini merupakan implementasi dari algoritma Backtracking yang dibuat menggunakan bahasa pemrograman Python[cite: 171]. [cite_start]Algoritma Backtracking adalah teknik untuk mencari solusi dari suatu permasalahan secara incremental (satu per satu) dan meng-eliminasi solusi yang tidak sesuai dengan kondisi batasan (constraint) yang ditentukan[cite: 7]. 
+Program ini merupakan implementasi dari algoritma Backtracking yang dibuat menggunakan bahasa pemrograman Python. Algoritma Backtracking adalah teknik untuk mencari solusi dari suatu permasalahan secara incremental (satu per satu) dan meng-eliminasi solusi yang tidak sesuai dengan kondisi batasan (constraint) yang ditentukan. 
 
 Visualisasi dibuat menggunakan GUI (Graphical User Interface) berbasis pustaka bawaan Python, yaitu `tkinter`. Program akan mendemonstrasikan bagaimana algoritma secara rekursif mencoba angka yang valid, dan melakukan proses *backtrack* (mundur dan menghapus angka) ketika menemui jalan buntu.
 
 ### Batasan (Constraint) Sudoku:
 Program secara ketat mematuhi aturan Sudoku berikut:
-* [cite_start]Kotak (cell) diisi dengan angka 1-9[cite: 53].
-* [cite_start]Satu baris tidak boleh memiliki angka yang sama[cite: 57].
-* [cite_start]Satu kolom tidak boleh memiliki angka yang sama[cite: 58].
-* [cite_start]Satu kuadran berukuran 3x3 tidak boleh memiliki angka yang sama[cite: 56].
+* Kotak (cell) diisi dengan angka 1-9.
+* atu baris tidak boleh memiliki angka yang sama.
+* Satu kolom tidak boleh memiliki angka yang sama.
+* Satu kuadran berukuran 3x3 tidak boleh memiliki angka yang sama.
 
 ---
 
